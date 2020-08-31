@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<title>Lars Fichtel</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+.bgimg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('images/DSC_0662.jpg');
+  min-height: 100%;
+}
+</style>
+<body>
+
+<!-- Sidebar with image -->
+<nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:40%">
+  <div class="bgimg"></div>
+</nav>
+
+<!-- Hidden Sidebar (reveals when clicked on menu icon)-->
+<nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright" style="padding:0 12px;">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center">
+    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Start</a>
+    <a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Über mich</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Kontakt</a>
+  </div>
+</nav>
+
+<!-- Page Content -->
+<div class="w3-main w3-padding-large" style="margin-left:40%">
+
+  <!-- Menu icon to open sidebar -->
+  <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+  <!-- Header -->
+  <header class="w3-container w3-center" style="padding:128px 16px" id="home">
+    <h1 class="w3-jumbo"><b>Lars Fichtel</b></h1>
+    <p>Computer Scientist | Master Student</p>
+    <img src="images/DSC_0662.jpg" class="w3-image w3-hide-large w3-hide-small w3-round" style="display:block;width:60%;margin:auto;">
+    <img src="images/DSC_0662.jpg" class="w3-image w3-hide-large w3-hide-medium w3-round" width="1000" height="1333">
+    <!-- Button
+    <button class="w3-button w3-light-grey w3-padding-large w3-margin-top">
+      <i class="fa fa-download"></i> Download Resume
+    </button> -->
+  </header>
+
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
+    <h2>Über mich</h2>
+    <hr class="w3-opacity">
+    <p>
+        Durch mein abgeschlossenes Masterstudium, sowie meine bisherige Zeit bei bdtronic und Empolis, konnte ich bereits wertvolle Erfahrungen und praktische Kenntnisse in 
+        den Bereichen der Anwendungsentwicklung, Machine Learning und Data Science sammeln. Ich bin sehr interessiert an Künstlicher Intelligenz und IT-Security. 
+        Während dieses Studiums hat sich mir die Möglichkeit geboten, verschiedene Prozesse des Unternehmens mit Hilfe von IT-Lösungen zu optimieren oder zu unterstützen. 
+        Von der Plugin-Entwicklung für Office-Anwendungen bis hin zur Anwendung von Maschinellem Lernen zur Produktklassifizierung im Produktionsumfeld.
+        Im Studium und auch im Job kamen mir sowohl meine schnelle Auffassungsgabe, mein ausgeprägtes technisches Verständnis als auch meine Teamfähigkeit zu Gute.
+    </p>
+    <h3 class="w3-padding-16">Meine Skills</h3>
+    <p class="w3-wide">Machine Learing</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:95%">90%</div>
+    </div>
+    <p class="w3-wide">IT-Security</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:85%">85%</div>
+    </div>
+    <p class="w3-wide">Software Development</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:85%">80%</div>
+    </div>
+    <p class="w3-wide">Projektmanagement</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:80%">80%</div>
+    </div>
+    <p class="w3-wide">S/4Hana & Microsoft Dynamics 365</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:80%">80%</div>
+    </div>
+    <br>
+    <!-- Button
+        <button class="w3-button w3-light-grey w3-padding-large w3-margin-top">
+        <i class="fa fa-download"></i> Download Resume
+        </button> -->
+    <!-- Testimonials -->
+    <h3 class="w3-padding-24">Berufserfahrung</h3>
+    <img src="images/fhws.png" alt="Avatar" class="w3-left w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-text-black w3-margin-right">Hochschule für angewandte Wissenschaften Würzburg-Schweinfurt</span> seit 07/2020</p>
+    <p>Wissenschaftlicher Mitarbeiter</p>
+    <p>Projekt FlowPro - Mikrologistik der Zukunft mit dezentral organisierten boden- und luftgebundenen autonomen Fördereinheiten</p><br>
+   
+    <img src="images/fhws.png" alt="Avatar" class="w3-left w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-text-black w3-margin-right">Hochschule für angewandte Wissenschaften Würzburg-Schweinfurt</span> 04/2020 - 06/2020</p>
+    <p> Projektmitarbeiter</p>
+    <p>Entwicklung einer Projektskizze für einen Förderantrag</p><br>
+    
+    <img src="images/empolis.png" alt="Avatar" class="w3-left w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-text-black w3-margin-right">Empolis GmbH</span> 09/2019 - 03/2020</p>
+    <p> Studentische Aushilfe</p>
+    <p>Proof of Concept: Bottom-Up Natural Language Processing zur Wissensgenerierung in der Psychotherapie</p><br>
+    
+    <img src="images/bdtronic.jpg" alt="Avatar" class="w3-left w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-text-black w3-margin-right">bdtronic GmbH</span> 10/2015 - 09/2018</p>
+    <p>Dualer Student - Angewanste Informatik</p>
+    <p>Verwendung von Machine Learning zur Bauteilerkennung in Industriemaschinen</p><br>
+    
+    <!-- 
+    <h3 class="w3-padding-24">Publikationen</h3>
+    <h4 class="w3-padding-24">2020</h3>
+    <img src="/w3images/avatar_smoke.jpg" alt="Avatar" class="w3-left w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-text-black w3-margin-right">Hochschule für angewandte Wissenschaften Würzburg-Schweinfurt</span> Master of Science Informationssysteme</p>
+    <p>5G: Potenzanalyse und Anwendungsbereiche</p><br> -->
+
+    <h3 class="w3-padding-24">Akademische Laufbahn</h3>
+
+    <img src="images/fhws.png" alt="Avatar" class="w3-left w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-text-black w3-margin-right">Hochschule für angewandte Wissenschaften Würzburg-Schweinfurt</span> seit 10/2018 </p>
+    <p> Master of Science Informationssysteme</p>
+    <p>5G: Potenzanalyse und Anwendungsbereiche</p><br>
+
+    <img src="images/dhbw.jpg" alt="DHBW" class="w3-left  w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-text-black w3-margin-right">Duale Hochschule Baden-Württemberg</span> 10/2015 - 09/2018</p>
+    <p> Bachelor of Science Angewandte Informatik</p>
+    <p>5G: Potenzanalyse und Anwendungsbereiche</p><br>
+
+
+    <h3 class="w3-padding-24">Zertifikate</h3>
+    <img src="images/ihk.png" alt="Avatar" class="w3-left  w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-text-black w3-margin-right">Ausbilderqualifizierung</span> 04/2017</p>
+    <p>IHK Rhein-Neckar</p><br>
+
+    <img src="images/sap.png" alt="Avatar" class="w3-left w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-text-black w3-margin-right">SAP Certified Application Associate - Business Process Integration with SAP S/4HANA 1610</span> 08/2019</p>
+    <p>SAP</p><br>
+
+    <img src="images/Microsoft.png" alt="Avatar" class="w3-left w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-text-black w3-margin-right">Microsoft Dynamics 365 Zertifizierung </span> 07/2019</p>
+    <p>ic-innovation</p><br>
+
+
+
+  <!-- End About Section -->
+  </div>
+
+  <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="contact">
+
+    <h2>Kontakt</h2>
+    <hr class="w3-opacity">
+    <p>Lars Fichtel</p>
+    <p>Valentin-Becker-Straße 12</p>
+    <p>97072 Würzburg</p>
+    <p>+49 176 43371240</p>
+    <p>fichtel.lars@web.de</p>
+    <a href="https://www.xing.com/profile/Lars_Fichtel/cv" target="_blank"><i class="fa fa-xing-square w3-hover-opacity" style="font-size: 3em;" ></i></a>
+
+  </div>
+ 
+  
+  
+<!-- END PAGE CONTENT -->
+</div>
+
+<script>
+// Open and close sidebar
+function openNav() {
+  document.getElementById("mySidebar").style.width = "60%";
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
